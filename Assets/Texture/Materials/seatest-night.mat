@@ -44,7 +44,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 06f16004112a3bc45b9ff601d72cb2fe, type: 3}
+        m_Texture: {fileID: 2800000, guid: 62ae08ef72729ae4cb8175a37a8108a6, type: 3}
         m_Scale: {x: 3, y: 3}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -64,7 +64,7 @@ Material:
         m_Scale: {x: 10, y: 10}
         m_Offset: {x: 0, y: 0}
     - _WaveMap:
-        m_Texture: {fileID: 2800000, guid: 752cd2818650c7b499cfba5faa8dec03, type: 3}
+        m_Texture: {fileID: 2800000, guid: ad09becc3dc6b2c43ab24168e4eecc93, type: 3}
         m_Scale: {x: 5, y: 5}
         m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -74,7 +74,7 @@ Material:
     - _Distortion: 0
     - _DstBlend: 0
     - _EdgeWidth: 0.205
-    - _FoamWidth: 0.533
+    - _FoamWidth: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -92,13 +92,14 @@ Material:
     - _SrcBlend: 1
     - _Thr: 0.3
     - _UVSec: 0
-    - _WaveXSpeed: 0.003
-    - _WaveYSpeed: 0.003
+    - _WaterRefracEdge: 0.556
+    - _WaveXSpeed: 0.05
+    - _WaveYSpeed: 0.05
     - _ZWrite: 1
-    - _fresnelWidth: 0.332
+    - _fresnelWidth: 0.183
     m_Colors:
-    - _Color: {r: 0.08098967, g: 0.17297453, b: 0.18867922, a: 1}
+    - _Color: {r: 0.10070309, g: 0.27770278, b: 0.2924528, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SColor: {r: 1, g: 0, b: 0, a: 1}
-    - _SkyColor: {r: 0.33530614, g: 0.4666749, b: 0.5188679, a: 1}
+    - _SkyColor: {r: 0.5, g: 0.4675751, b: 0.38443395, a: 1}
     - _WaterColor: {r: 0.7653525, g: 0.8294878, b: 0.8584906, a: 1}
