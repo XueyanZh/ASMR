@@ -19,7 +19,6 @@ GameObject:
   - component: {fileID: 8142369741078768197}
   - component: {fileID: 3100761420843466190}
   - component: {fileID: 7097185537462401836}
-  - component: {fileID: 6236287770133208216}
   m_Layer: 0
   m_Name: Speaker
   m_TagString: Untagged
@@ -316,7 +315,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 643fcbd55be83054cbe4ba4537120bdd, type: 3}
+  m_audioClip: {fileID: 8300000, guid: bd980f679641b5f4daa416e9206c86a3, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -402,16 +401,3 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!135 &6236287770133208216
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4009654241738672819}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.30000004
-  m_Center: {x: 0.000000033527613, y: 0.29630646, z: -0.00000004470348}

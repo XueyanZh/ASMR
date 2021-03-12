@@ -737,11 +737,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: 3D Adjustable Musical Sphere
       objectReference: {fileID: 0}
-    - target: {fileID: 7097185537462401836, guid: d12ce5c2fadc0994f99f1a4fad0d2b73,
-        type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: bd980f679641b5f4daa416e9206c86a3, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d12ce5c2fadc0994f99f1a4fad0d2b73, type: 3}
 --- !u!4 &142149722 stripped
@@ -1928,7 +1923,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &374409523
 Transform:
   m_ObjectHideFlags: 0
@@ -2544,31 +2539,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.01
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.543
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.91
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.4129507
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.91075337
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2576,7 +2571,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 131.21901
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -9947,6 +9942,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: tutorBot_anim
       objectReference: {fileID: 0}
+    - target: {fileID: 204387920612158497, guid: 1b8b0171eaeef0d4ab6b836ea030974d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 692975001032701595, guid: 1b8b0171eaeef0d4ab6b836ea030974d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10116,6 +10116,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Speaker
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009654241738672819, guid: d12ce5c2fadc0994f99f1a4fad0d2b73,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d12ce5c2fadc0994f99f1a4fad0d2b73, type: 3}
